@@ -1,2 +1,64 @@
 #facts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1rem;
+  width: 90%;
+}
+
+.facts_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.quick_fact {
+  padding: 1rem;
+}
+
+#facts img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.hide1 {
+  display: none;
+}
+
+button {
+  width: 50%;
+  margin: 0 auto;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  color: #796eff;
+  font-weight: 550;
+  background-color: #796eff40;
+}
+
+@media only screen and (min-width: 1000px) {
+  .hide2 {
+    display: none;
+  }
+  .hide1 {
+    display: block;
+  }
+  .facts1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .facts2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .quick_fact {
+    max-width: 20%;
+  }
 }
