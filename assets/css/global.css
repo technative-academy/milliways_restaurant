@@ -1,3 +1,6 @@
+@import "header.css";
+@import "footer.css";
+
 /*Reset*/
 * {
   margin: 0;
