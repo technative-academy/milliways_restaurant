@@ -1,18 +1,20 @@
 #contact {
   display: flex;
+  gap: 2rem;
+  padding: 2rem;
 }
 h2 {
   margin-bottom: 10px;
 }
 .contact-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   justify-content: space-between;
-  padding: 20px;
+  padding: 1rem;
 }
 
 .map img {
-  width: 70%;
+  width: 100%;
   border-radius: 6%;
 }
 form {
@@ -21,7 +23,7 @@ form {
 }
 
 .form-contact-container {
-  width: 70%;
+  padding: 1rem;
 }
 
 input[type="text"],
@@ -50,8 +52,14 @@ input[type="submit"]:hover {
 }
 
 @media only screen and (min-width: 1000px) {
+  #contact {
+    justify-content: space-between;
+  }
   .contact-container {
     display: flex;
     flex-direction: row;
+  }
+  .map img {
+    max-width: 90%;
   }
 }
