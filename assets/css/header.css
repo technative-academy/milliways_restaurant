@@ -1,6 +1,7 @@
 header {
-  margin-top: 50px;
-  margin-bottom: 150px;
+  padding-top: 50px;
+  padding-bottom: 150px;
+  background-color: var(--colour-background);
 }
 header p {
   margin-bottom: 10px;
