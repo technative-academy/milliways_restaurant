@@ -1,2 +1,45 @@
 #blurb {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+#blurb div {
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem;
+}
+
+#blurb figure {
+  text-align: center;
+}
+
+#blurb img {
+  max-width: 80%;
+  border-radius: 1rem;
+}
+
+#blurb figcaption {
+  font-size: 0.75rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  #blurb {
+    flex-direction: row;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  #blurb div {
+    text-align: left;
+  }
+
+  #blurb h2 {
+    padding-bottom: 1rem;
+  }
+
+  #blurb figure {
+    max-width: 50%;
+  }
 }
