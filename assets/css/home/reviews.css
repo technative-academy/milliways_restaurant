@@ -1,2 +1,51 @@
 #reviews {
 }
+
+.testimonial-container {
+  text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+blockquote {
+  font-style: italic;
+  margin: 2rem 0;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: center;
+  gap: 7rem;
+  margin-bottom: 1px;
+}
+
+.testimonial {
+  text-align: center;
+}
+
+.testimonial img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.statistics {
+  display: flex;
+  align-items: center;
+  background-color: #6a5acd; /* Adjust the color as needed */
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  width: 50%;
+  height: 7rem;
+  margin: 6rem auto;
+  border-radius: 1rem;
+}
+
+.statistics p {
+  margin: 0 auto;
+}
