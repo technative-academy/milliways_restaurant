@@ -13,7 +13,7 @@ A repo for Jo, Helder and Nico's 1st group project.
   - [Usage](#usage)
     - [As a user](#as-a-user)
   - [License](#license)
-  - [Contributing](#contributing)
+  - [Contributors](#contributing)
     - [Nico Clack](#nico-clack)
     - [Jo Pickering](#jo-pickering)
     - [Helder Balbino](#helder-balbino)
@@ -22,7 +22,7 @@ A repo for Jo, Helder and Nico's 1st group project.
 
 ## Description
 
- <div style="font-size: 40px; display:inline" >W</div>elcome to Milliways, the most extraordinary dining experience in the entire cosmos! Step through the shimmering veil of reality into a realm where culinary innovation meets the infinite expanse of the universe.
+ Welcome to Milliways, the most extraordinary dining experience in the entire cosmos! Step through the shimmering veil of reality into a realm where culinary innovation meets the infinite expanse of the universe.
 
 Picture this: nestled within the edge of the galaxy, Milliways floats like a shimmering jewel, its architecture a mesmerizing fusion of futuristic elegance and cosmic wonder. As you approach, you're greeted by the sight of swirling nebulae and distant stars twinkling through the massive observation windows, casting an ethereal glow upon the dining hall.
 
@@ -52,7 +52,7 @@ So, whether you're a seasoned spacefarer or a humble terrestrial traveler, prepa
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Contributing
+## Contributors
 
 ### [Nico Clack](https://github.com/hedgehog125)
 
