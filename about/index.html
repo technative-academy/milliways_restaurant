@@ -43,8 +43,61 @@
           <figcaption>Photo by Mick Haupt on Unsplash</figcaption>
         </figure>
       </section>
+
       <section id="contact">
-        <!-- TODO -->
+        <div class="contact-container">
+          <div class="map">
+            <img
+              src="/assets/imgs/milliways_address_map.webp"
+              alt="Map for milliways_address"
+            />
+            <div class="address">
+              <p>Our Address:</p>
+              <p>
+                Frog star World B<br />Just before the end of the galaxy.<br />we
+                are the building that resembles a giant glittering starfish.
+              </p>
+            </div>
+          </div>
+
+          <div class="form-contact-container">
+            <h2>Contact us</h2>
+            <p>
+              Hello fellow traveler, if you would like to contact us, please
+              write us on
+              <a href="mailto:hello@blah.com">Milliways@endofthegalaxy.com</a>
+              or enter your nice message below
+            </p>
+
+            <form action="your_server_endpoint" method="post">
+              <label for="name">Enter your name: </label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Marvin"
+                required
+              />
+              <label for="email">Enter your email here: </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="paranoidmarvin@galaxy.com"
+                required
+              />
+              <label for="message">Enter your nice message here: </label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Nice message"
+                style="height: 200px"
+                required
+              ></textarea>
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
       </section>
     </main>
 
