@@ -1,2 +1,65 @@
 #contact {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+}
+h2 {
+  margin-bottom: 10px;
+}
+.contact-container {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.map img {
+  width: 100%;
+  border-radius: 6%;
+}
+form {
+  margin-top: 40px;
+  padding-top: 20px;
+}
+
+.form-contact-container {
+  padding: 1rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box; /* So that width includes padding */
+}
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+.address {
+  margin: 40px;
+}
+
+@media only screen and (min-width: 1000px) {
+  #contact {
+    justify-content: space-between;
+  }
+  .contact-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .map img {
+    max-width: 90%;
+  }
 }

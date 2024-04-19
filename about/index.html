@@ -4,11 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Milliways</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../assets/css/global.css" />
     <link rel="stylesheet" href="../assets/css/about/about.css" />
   </head>
   <body>
-    <header>
+    <header class="background">
       <p>Milliways</p>
       <nav>
         <ul>
@@ -20,7 +26,9 @@
     </header>
     <main>
       <h1>About Milliways</h1>
-      <p>Taking you to the end of space while you've still got the time!</p>
+      <p id="outside">
+        Taking you to the end of space while you've still got the time!
+      </p>
       <section id="blurb">
         <div>
           <h2>A home for one, a home for all.</h2>
@@ -43,8 +51,63 @@
           <figcaption>Photo by Mick Haupt on Unsplash</figcaption>
         </figure>
       </section>
-      <section id="contact">
-        <!-- TODO -->
+
+      <section id="contact" class="background">
+        <div class="contact-container">
+          <div class="map">
+            <img
+              src="../assets/imgs/milliways_address_map.webp"
+              alt="image for milliways at the edge of galaxy"
+            />
+            <div class="address">
+              <p>Our Address:</p>
+              <p>
+                Frog star World B<br />Just before the end of the galaxy.<br />we
+                are the building that resembles a giant glittering starfish.
+              </p>
+            </div>
+          </div>
+
+          <div class="form-contact-container">
+            <h2>Contact us</h2>
+            <p>
+              Hello fellow traveler, if you would like to contact us, please
+              write us on
+              <a href="milliways@endofthegalaxy.com"
+                >milliways@endofthegalaxy.com</a
+              >
+              or enter your nice message below
+            </p>
+
+            <form action="your_server_endpoint" method="post">
+              <label for="name">Enter your name: </label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Marvin"
+                required
+              />
+              <label for="email">Enter your email here: </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="paranoidmarvin@galaxy.com"
+                required
+              />
+              <label for="message">Enter your nice message here: </label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Nice message"
+                style="height: 200px"
+                required
+              ></textarea>
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
       </section>
     </main>
 
