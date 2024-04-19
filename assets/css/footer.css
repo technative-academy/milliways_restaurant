@@ -68,3 +68,20 @@ footer hr {
   width: 2rem;
   height: auto;
 }
+
+@media (min-width: 900px) {
+  footer > div {
+    --h-padding: 10rem;
+  }
+  .footer-main {
+    margin-bottom: 4rem;
+  }
+  .footer-main,
+  .footer-copyright-socials {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer-copyright-socials {
+    align-items: center;
+  }
+}
