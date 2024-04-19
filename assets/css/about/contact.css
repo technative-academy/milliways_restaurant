@@ -1,6 +1,7 @@
 #contact {
   display: flex;
   gap: 2rem;
+  padding: 2rem;
 }
 h2 {
   margin-bottom: 10px;

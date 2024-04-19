@@ -4,12 +4,11 @@
 main {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
 }
 
 main h1 {
   text-align: center;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 #outside {
@@ -21,4 +20,8 @@ main h1 {
     max-width: 80%;
     margin: 0 auto;
   }
+}
+
+.background {
+  background-color: #f6f3fc;
 }
