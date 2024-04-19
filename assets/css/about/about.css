@@ -1,11 +1,24 @@
 @import "blurb.css";
 @import "contact.css";
 
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 main h1 {
   text-align: center;
   padding: 1rem;
 }
 
-main p {
+#outside {
   text-align: center;
+}
+
+@media only screen and (min-width: 1000px) {
+  main {
+    max-width: 80%;
+    margin: 0 auto;
+  }
 }

@@ -2,12 +2,12 @@
   max-width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  gap: 2rem;
 }
 
 #blurb div {
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
   padding: 1rem;
 }
 
@@ -16,7 +16,7 @@
 }
 
 #blurb img {
-  max-width: 80%;
+  max-width: 100%;
   border-radius: 1rem;
 }
 
@@ -27,7 +27,6 @@
 @media only screen and (min-width: 1000px) {
   #blurb {
     flex-direction: row;
-    max-width: 80%;
     margin: 0 auto;
   }
 
