@@ -1,2 +1,11 @@
 @import "blurb.css";
 @import "contact.css";
+
+main h1 {
+  text-align: center;
+  padding: 1rem;
+}
+
+main p {
+  text-align: center;
+}
