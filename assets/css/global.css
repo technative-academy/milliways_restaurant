@@ -1,3 +1,6 @@
+@import "header.css";
+@import "footer.css";
+
 /*Reset*/
 * {
   margin: 0;
@@ -11,6 +14,7 @@
   --colour-primary-tint: #f6f3fc;
   --colour-text-headings: #35414b;
   --colour-text-body: #4e5a65;
+  /* For headings and blocks  */
   --colour-background: #fbfafe;
   --colour-background-footer: #1d2830;
 }

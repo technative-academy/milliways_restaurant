@@ -1,4 +1,44 @@
 header {
+  padding-top: 50px;
+  padding-bottom: 150px;
+  background-color: var(--colour-background);
 }
-nav {
+header p {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 2rem;
+  color: var(--colour-text-headings);
+}
+nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+nav li {
+  list-style-type: none;
+}
+nav a {
+  font-size: 1.25rem;
+  color: var(--colour-text-headings);
+  text-decoration: none;
+}
+
+@media (min-width: 600px) {
+  header p {
+    font-size: 3rem;
+    margin-bottom: 40px;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul {
+    display: inline-flex;
+    gap: 150px;
+    flex-direction: row;
+  }
+  nav li {
+    display: inline;
+  }
 }
