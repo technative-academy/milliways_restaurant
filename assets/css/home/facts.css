@@ -30,17 +30,6 @@
   display: none;
 }
 
-button {
-  width: 50%;
-  margin: 0 auto;
-  padding: 0.5rem;
-  border: none;
-  border-radius: 5px;
-  color: #796eff;
-  font-weight: 550;
-  background-color: #796eff40;
-}
-
 @media only screen and (min-width: 1000px) {
   .hide2 {
     display: none;

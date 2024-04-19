@@ -1,2 +1,39 @@
 #vip {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+}
+
+.vip-experience {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 1rem;
+}
+
+img.vip-experience {
+  border-radius: 10px;
+}
+
+.vip-experience h2 {
+  padding-bottom: 1rem;
+}
+.vip-experience p {
+  padding-bottom: 1rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  #vip {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .vip-experience {
+    text-align: left;
+  }
+
+  img.vip-experience {
+    max-height: 20rem;
+  }
 }

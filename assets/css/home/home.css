@@ -11,3 +11,27 @@ main {
   margin: 0 auto;
   width: 90%;
 }
+
+/*Button CSS and hover states for Home page*/
+button {
+  width: 50%;
+  margin: 0 auto;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  color: #796eff;
+  font-weight: 550;
+  background-color: #796eff40;
+}
+
+button:hover {
+  font-size: 1.25rem;
+  cursor: pointer;
+  border: #796eff solid 1.5px;
+}
+
+@media only screen and (min-width: 1000px) {
+  button {
+    margin: 0;
+  }
+}
