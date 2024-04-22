@@ -52,6 +52,7 @@
   }
   .tab {
     padding: 0.75rem;
+    border-left: solid 5px #fbfafe;
   }
   .tab h3 {
     font-size: 1.25rem;
@@ -61,5 +62,16 @@
     border-bottom: none;
     background-color: #f6f3fc;
     border-radius: 0 10px 10px 0;
+  }
+
+  .selected:hover {
+    border: solid 5px #f6f3fc;
+  }
+
+  .tab:hover {
+    cursor: pointer;
+    border: none;
+    padding: 0.75rem;
+    font-size: 0.75rem;
   }
 }
