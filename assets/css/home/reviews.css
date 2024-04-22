@@ -5,11 +5,6 @@
   text-align: center;
 }
 
-h2 {
-  font-size: 1.6rem;
-  margin-bottom: 3rem;
-}
-
 blockquote {
   font-style: italic;
   margin: 2rem 0;
@@ -18,8 +13,9 @@ blockquote {
 .testimonials {
   display: flex;
   justify-content: center;
-  gap: 7rem;
+  gap: 3rem;
   margin-bottom: 1px;
+  font-size: 0.75rem;
 }
 
 .testimonial {
