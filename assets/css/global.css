@@ -61,6 +61,9 @@ h3 {
     font-size: 1.75rem;
     line-height: 2.25rem;
   }
+  main {
+    max-width: 1200px;
+  }
 }
 
 /*Background class for containers with different background colour*/
