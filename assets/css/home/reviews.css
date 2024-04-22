@@ -6,7 +6,7 @@
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 1.6rem;
   margin-bottom: 3rem;
 }
 
@@ -40,9 +40,9 @@ blockquote {
   color: white;
   padding: 10px;
   font-size: 20px;
-  width: 50%;
-  height: 7rem;
-  margin: 6rem auto;
+  width: 75%;
+  height: 5rem;
+  margin: 3rem auto;
   border-radius: 1rem;
 }
 
