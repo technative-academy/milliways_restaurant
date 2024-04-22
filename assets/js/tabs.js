@@ -16,21 +16,31 @@ const IMAGES = [
     alt: 'A chess board in space with a banner at the bottom reading "End-of-time Chess".',
   },
 ];
+const SELECTED_CSS_CLASS = "selected";
 
 let selected = 0;
 const img = document.querySelector(".tabs-img");
 const buttons = document.querySelectorAll(".tabs-buttons button");
-for (let buttonID = 0; buttonID < buttons.length; buttonID++) {
-  const button = buttons[buttonID];
-  button.addEventListener("click", () => {
-    selected = buttonID;
-    render();
-  });
+addListeners();
+render();
+
+function addListeners() {
+  for (let buttonID = 0; buttonID < buttons.length; buttonID++) {
+    const button = buttons[buttonID];
+    button.addEventListener("click", () => {
+      selected = buttonID;
+      render();
+    });
+  }
 }
 
 function render() {
   const imgInfo = IMAGES[selected];
   img.src = `./assets/imgs/tabs/${imgInfo.src}`;
   img.alt = imgInfo.alt;
+
+  buttons.forEach((button) => {
+    button.classList.remove(SELECTED_CSS_CLASS);
+  });
+  buttons[selected].classList.add(SELECTED_CSS_CLASS);
 }
-render();
