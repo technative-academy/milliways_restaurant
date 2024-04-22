@@ -26,6 +26,9 @@ button {
   color: #796eff;
   font-weight: 550;
   background-color: #796eff40;
+
+  transition-property: font-size, padding;
+  transition-duration: 0.15s;
 }
 
 button:hover {
