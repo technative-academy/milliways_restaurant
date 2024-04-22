@@ -12,6 +12,10 @@ main {
   width: 90%;
 }
 
+section {
+  padding: 1rem;
+}
+
 /*Button CSS and hover states for Home page*/
 button {
   width: 50%;
