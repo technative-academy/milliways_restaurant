@@ -4,6 +4,7 @@
 main {
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
 }
 
 main h1 {
@@ -13,10 +14,4 @@ main h1 {
 
 #outside {
   text-align: center;
-}
-
-@media only screen and (min-width: 1000px) {
-  main {
-    margin: 0 auto;
-  }
 }
