@@ -5,15 +5,15 @@ const IMAGES = [
   },
   {
     src: "port.jpg",
-    alt: "A table and chairs floating in space",
+    alt: "A number of small spaceships inside a massive spaceship",
   },
   {
     src: "accommodation.jpg",
-    alt: "A table and chairs floating in space",
+    alt: "A dystopian but slightly futuristic looking corridor filled with small sleeping capsules",
   },
   {
     src: "chess.jpg",
-    alt: "A table and chairs floating in space",
+    alt: 'A chess board in space with a banner at the bottom reading "End-of-time Chess".',
   },
 ];
 
