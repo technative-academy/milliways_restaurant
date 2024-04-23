@@ -34,6 +34,9 @@
   background-color: #f6f3fc;
   border-radius: 10px 10px 0 0;
 }
+.selected:hover {
+  border-bottom: solid 5px #796eff;
+}
 
 @media only screen and (min-width: 1000px) {
   #tabs {
@@ -63,9 +66,9 @@
     background-color: #f6f3fc;
     border-radius: 0 10px 10px 0;
   }
-
-  .selected:hover {
+  .tab.selected:hover {
     border: solid 5px #f6f3fc;
+    border-left: solid 5px #796eff;
   }
 
   .tab:hover {
