@@ -1,5 +1,4 @@
 let testimonialElements = document.querySelectorAll(".testimonial");
-console.log(testimonialElements);
 
 testimonialElements.forEach(testimonialClickedListener);
 
